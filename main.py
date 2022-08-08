@@ -39,7 +39,7 @@ for i in range(rounds):
                 from selenium.webdriver.chrome.options import Options
                 options = Options()
                 options.add_argument(f'user-agent={userAgent}')
-                driver = webdriver.Chrome('Chrome driver path here') # Put chrome driver path here!
+                driver = webdriver.Chrome('Chromedriver.exe') # Put chrome driver path here!
 
 
         driver.get('https://www.instagram.com/accounts/emailsignup')
